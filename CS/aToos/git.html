@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Git &#x57fa;&#x7840;</title>
+            <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only],
+.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
+.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+            
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+<style>
+:root {
+  --color-note: #0969da;
+  --color-tip: #1a7f37;
+  --color-warning: #9a6700;
+  --color-severe: #bc4c00;
+  --color-caution: #d1242f;
+  --color-important: #8250df;
+}
+
+</style>
+<style>
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-note: #2f81f7;
+    --color-tip: #3fb950;
+    --color-warning: #d29922;
+    --color-severe: #db6d28;
+    --color-caution: #f85149;
+    --color-important: #a371f7;
+  }
+}
+
+</style>
+<style>
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid #888;
+}
+
+.markdown-alert>:first-child {
+  margin-top: 0
+}
+
+.markdown-alert>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-caution);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-caution);
+}
+
+</style>
+        
+        </head>
+        <body class="vscode-body vscode-light">
+            <!--
+ * _______________#########_______________________ 
+ * ______________############_____________________ 
+ * ______________#############____________________ 
+ * _____________##__###########___________________ 
+ * ____________###__######_#####__________________ 
+ * ____________###_#######___####_________________ 
+ * ___________###__##########_####________________ 
+ * __________####__###########_####_______________ 
+ * ________#####___###########__#####_____________ 
+ * _______######___###_########___#####___________ 
+ * _______#####___###___########___######_________ 
+ * ______######___###__###########___######_______ 
+ * _____######___####_##############__######______ 
+ * ____#######__#####################_#######_____ 
+ * ____#######__##############################____ 
+ * ___#######__######_#################_#######___ 
+ * ___#######__######_######_#########___######___ 
+ * ___#######____##__######___######_____######___ 
+ * ___#######________######____#####_____#####____ 
+ * ____######________#####_____#####_____####_____ 
+ * _____#####________####______#####_____###______ 
+ * ______#####______;###________###______#________ 
+ * ________##_______####________####______________ 
+ * 
+ * @Author: 崩布猪
+ * @Date: 2024-03-03 12:07:36
+ * @LastEditors: 崩布猪
+ * @LastEditTime: 2024-04-24 10:01:43
+ * @FilePath: \aToos\git.md
+ * @Description: 
+ * 
+ -->
+<h2 id="git-基础">Git 基础</h2>
+<h3 id="git-初始化">git 初始化</h3>
+<p>1.打开git bash
+2.设置用户名和邮箱
+git config --global <a href="http://user.name">user.name</a> &quot;your Name&quot;
+git config --global user.email &quot;<a href="mailto:email@example.com">email@example.com</a>&quot;</p>
+<h3 id="创建git仓库">创建git仓库</h3>
+<p>1.在已存在目录中初始化仓库
+在当前文件夹中
+git init
+ls &gt;&gt;可以查看文件夹当中的文件
+ls -ah  &gt;&gt;可以查看文件中的隐藏文件</p>
+<p>2.克隆远程仓库
+git clone 仓库地址  &gt;&gt;克隆远程仓库到本地</p>
+<h3 id="记录每次更新到仓库">记录每次更新到仓库</h3>
+<ol>
+<li>
+<p>查看当前文件状态
+git status<br>
+-s 精简输出
+-b 显示分支</p>
+</li>
+<li>
+<p>跟踪文件 或者 暂存已经修改的文件
+git add 文件名  &gt;&gt;把文件添加到暂存区</p>
+</li>
+<li>
+<p>忽略文件
+gitignore文件中添加忽略规则
+例子 cat .gitignore &gt;&gt;.gitignore
+#忽略所有.a文件<br>
+*.a</p>
+</li>
+<li>
+<p>查看已暂存 或者 没暂存的修改
+git diff  &gt;&gt;查看已暂存的修改
+git diff --cached  &gt;&gt;查看已暂存的</p>
+</li>
+<li>
+<p>添加文件到版本库
+1.git add 文件名  &gt;&gt;把文件添加到仓库仓库
+3.git commit -a -m “本次文件说明”  &gt;&gt;把所有文件提交到仓库 并且跳过git add步骤</p>
+</li>
+<li>
+<p>移除文件
+git rm 文件名  &gt;&gt;从版本库中移除文件</p>
+</li>
+<li>
+<p>移动文件
+git mv 文件名 新文件名  &gt;&gt;移动文件 并且可以修改文件名</p>
+</li>
+</ol>
+<h3 id="查看提交历史">查看提交历史</h3>
+<ol>
+<li>git log  &gt;&gt;查看提交历史
+常用选项：
+-p 显示每次提交的内容差异
+--stat 显示每次提交的统计信息
+--oneline 显示简短的提交信息
+--graph 显示分支合并图
+git log --oneline --graph --decorate --all  &gt;&gt;查看项目分叉历史</li>
+<li>git reflog  &gt;&gt;查看所有提交历史记录</li>
+</ol>
+<h3 id="撤销操作">撤销操作</h3>
+<p>修改上次提交:
+git commit --amend -m “本次文件说明”  &gt;&gt;说明修改上次提交
+取消暂存区的文件:
+git reset HEAD 文件名
+git restore --staged 文件名<br>
+撤销对文件的修改
+git checkout -- 文件名</p>
+<h3 id="远程仓库的使用">远程仓库的使用</h3>
+<p>查看远程仓库
+git remote
+git remote -v  &gt;&gt;查看远程仓库详细信息</p>
+<p>添加远程仓库
+git remote add &lt;别名&gt; 仓库地址  &gt;&gt;添加远程仓库</p>
+<p>从远程仓库中抓取与拉取
+git fetch &lt;远程仓库名&gt; &lt;分支名&gt;  &gt;&gt;从远程仓库中抓取分支
+git pull &lt;远程仓库名&gt; &lt;分支名&gt;  &gt;&gt;从远程仓库中拉取分支</p>
+<p>推送本地分支到远程仓库
+git push &lt;远程仓库名&gt; &lt;分支名&gt;  &gt;&gt;推送本地分支到远程仓库</p>
+<p>查看某个远程仓库
+git remote show &lt;远程仓库名&gt;  &gt;&gt;查看某个远程仓库的详细信息</p>
+<p>远程仓库的重命名与移除
+git remote rename &lt;旧名字&gt; &lt;新名字&gt;  &gt;&gt;远程仓库的重命名
+git remote rm &lt;远程仓库名&gt;  &gt;&gt;移除远程仓库</p>
+<h3 id="远程分支">远程分支</h3>
+<pre><code>  git ls-remote &lt;remote&gt; &gt;&gt;查看远程仓库信息
+  git remote show origin &lt;remote&gt; &gt;&gt;查看远程仓库详细信息
+  git fetch &lt;remote&gt; &lt;branch&gt; &gt;&gt;抓取远程分支
+  git config --global credential.helper cache &gt;&gt;设置缓存凭证
+  跟踪远程分支
+    git checkout -b &lt;本地分支名&gt; &lt;remote&gt;/&lt;branch&gt; &gt;&gt;创建本地分支并跟踪远程分支
+  拉取
+     git fetch origin master &gt;&gt;拉取远程分支
+  删除
+     git push origin --delete &lt;branch&gt; &gt;&gt;删除远程分支
+</code></pre>
+<h3 id="打标签">打标签</h3>
+<p>列出标签
+git tag
+git tag -l &quot;v1.0.1&quot;  &gt;&gt;查看标签</p>
+<p>创建标签
+git tag &lt;标签名&gt;  &gt;&gt;创建标签
+git tag -a &lt;标签名&gt; -m &quot;标签说明&quot;  &gt;&gt;创建带说明的标签
+git tag -a &lt;标签名&gt; &lt;提交ID&gt; -m &quot;标签说明&quot;  &gt;&gt;指定提交ID创建标签</p>
+<p>推送标签到远程仓库/共享标签
+git push origin &lt;标签名&gt;  &gt;&gt;推送标签到远程仓库</p>
+<p>删除标签
+git tag -d &lt;标签名&gt;  &gt;&gt;删除本地标签
+git push origin :refs/tags/&lt;标签名&gt;  &gt;&gt;删除远程标签
+git push origin --delete &lt;标签名&gt;  &gt;&gt;删除远程标签</p>
+<p>检出标签
+git checkout &lt;标签名&gt;  &gt;&gt;检出标签到当前分支
+git checkout -b &lt;分支名&gt; &lt;标签名&gt;  &gt;&gt;检出标签到新分支</p>
+<h3 id="git-别名">git 别名</h3>
+<p>git config --global &lt;别名&gt; &lt;git命令&gt;  &gt;&gt;设置别名
+git config --global <a href="http://alias.st">alias.st</a> status  &gt;&gt;设置别名 st 等于 git status</p>
+<h2 id="git-分支">git 分支</h2>
+<p>创建分支
+git branch &lt;分支名&gt;  &gt;&gt;创建分支</p>
+<p>切换分支
+git checkout &lt;分支名&gt;  &gt;&gt;切换分支</p>
+<p>创建新分支并切换到新分支
+git checkout -b &lt;新分支名&gt;  &gt;&gt;创建新分支并切换到新分支</p>
+<p>合并分支
+git merge &lt;分支名&gt;  &gt;&gt;合并分支</p>
+<p>变基分支
+git rebase &lt;分支名&gt;  &gt;&gt;变基分支</p>
+<p>删除分支
+git branch -d &lt;分支名&gt;  &gt;&gt;删除分支</p>
+<p>查看分支
+git branch  &gt;&gt;查看当前分支
+git branch -a  &gt;&gt;查看所有分支</p>
+<p>查看项目分叉历史
+git log --graph --oneline --decorate --all  &gt;&gt;查看项目分叉历史</p>
+<h3 id="git-冲突">git 冲突</h3>
+<p>当我们在不同的分支上对同一个文件进行了不同的修改，然后尝试合并时，就会出现冲突。</p>
+<p>解决冲突的方法：</p>
+<ol>
+<li>手动编辑冲突文件，删除不需要的行，保留需要的行。</li>
+<li>使用 git mergetool 命令，它会打开一个可视化的合并工具，帮助我们解决冲突。</li>
+</ol>
+<h3 id="工作流">工作流</h3>
+<pre><code>  长期分支
+    只在master分支上保留完全稳定的代码，其他分支（develop or next）只用来开发新功能。在大型项目中还有一个 proposed（建议） or proposed updates（建议更新）分支，用来收集一些想法或实验性质的代码，但不一定要合并到主分支。
+  特性分支
+    特性分支是用来开发新功能或修复已知问题的分支。特性分支从 develop 分支上分离出来，然后再合并回 develop 分支。特性分支的命名一般是 feature/xxx 或 fix/xxx。
+</code></pre>
+
+            
+            
+        </body>
+        </html>

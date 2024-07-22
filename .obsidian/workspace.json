@@ -1,0 +1,203 @@
+{
+  "main": {
+    "id": "e69831d7307ba154",
+    "type": "split",
+    "children": [
+      {
+        "id": "9d1eedbdb3434c04",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1ff3a68a60e02f01",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "web/css笔记.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c5407800032f0c31",
+    "type": "split",
+    "children": [
+      {
+        "id": "5c485946d7df9a25",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bd7e0ad0b0287c75",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b7cbab9331300b63",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5c939e21818f3965",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0cd8607bcecba8a3",
+    "type": "split",
+    "children": [
+      {
+        "id": "01625ed4e14016ff",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7ee7c606010df670",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "web/css笔记.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0f26776e2203ce34",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "web/css笔记.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bcdaab8fc02358c0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9d6ad66a88a1467f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "web/css笔记.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "workspaces:管理工作区布局": false
+    }
+  },
+  "active": "1ff3a68a60e02f01",
+  "lastOpenFiles": [
+    "web/HTML.md",
+    "思考的小项目.md",
+    "自我剖析.md",
+    "README.md",
+    "体系结构.canvas",
+    "试卷.md",
+    "[.md",
+    "web/基本知识.md",
+    "web/前端开发命名规范.md",
+    "CS/web/前端开发命名规范.md",
+    "CS/web/基本知识.md",
+    "CS/aToos/README.md",
+    "Pasted image 20240709094110.png",
+    "CS/aToos/vim.md",
+    "CS/aToos/git.md",
+    "CS/aToos/Linux.md",
+    "CS/数据结构/题.md",
+    "CS/计算机网络/__03.数据链路层.md",
+    "CS/计算机网络/__02_物理层.md",
+    "CS/数据结构/8_图.md",
+    "CS/数据结构/5_栈和队列.md",
+    "CS/数据结构/7_树.md",
+    "Pasted image 20240704160443.png",
+    "CS/Csharp/未命名 1.md",
+    "CS/计算机网络/复习题.md",
+    "CS/计算机网络/__01_概述.md",
+    "CS/计算机网络/__04_网络层.md",
+    "CS/计算机网络/__05_传输层.md",
+    "CS/计算机网络/__06_网络层.md",
+    "CS/计算机网络/image.png",
+    "CS/操作系统/操作系统导论-OSTEP (王海鹏 译) (Z-Library).pdf",
+    "CS/操作系统/操作系统原理、实现与实践 (李治军,刘宏伟) (Z-Library).pdf",
+    "CS/操作系统/Pasted image 20240622093145.png",
+    "CS/操作系统/Pasted image 20240622142647.png",
+    "CS/操作系统/Pasted image 20240622093335.png",
+    "CS/移动终端设计与开发/哆哆记账讲解流程.canvas",
+    "CS/移动终端设计与开发/Android编程权威指南中文第3版.pdf",
+    "CS/操作系统/Operating Systems Three Easy Pieces ( etc.) (Z-Library)-dual-translated.pdf",
+    "CS/计算机网络/计算机网络（原书第7版） 自顶向下方法 (James F. Kurose Keith W. Ross) (Z-Library).pdf",
+    "CS/Csharp/CC/C_程序设计教程.pdf",
+    "未命名",
+    "CS/计算机组成原理/Pasted image 20240618145239.png",
+    "CS/计算机组成原理/计算机组成原理第3版 (唐朔飞) (Z-Library).pdf",
+    "CS/计算机组成原理/Pasted image 20240618180418.png",
+    "CS/计算机组成原理/Pasted image 20240618165432.png",
+    "CS/计算机组成原理/Pasted image 20240618165351.png",
+    "CS/计算机组成原理/计算机系统基础（第二版） (袁春风) (Z-Library).pdf",
+    "CS/数据结构/hello-algo-1.0.0-zh-c.pdf",
+    "CS/操作系统/未命名.canvas",
+    "CS/未命名.canvas"
+  ]
+}

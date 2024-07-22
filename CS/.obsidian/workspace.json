@@ -1,0 +1,155 @@
+{
+  "main": {
+    "id": "2c84aa2d944b0136",
+    "type": "split",
+    "children": [
+      {
+        "id": "7cf53e8186d05946",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4c26eca82edb14c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "未命名 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "68126ca49cfb72aa",
+    "type": "split",
+    "children": [
+      {
+        "id": "88ebc925800a8c0e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9e924e183e46f6ca",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6902c1f8dd665442",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a6a10feefaf80435",
+    "type": "split",
+    "children": [
+      {
+        "id": "b1ac46ff0ad57f3f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5c59dafdedd832e9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "未命名 1.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "54cef52506620f0c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "未命名 1.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2fa73f8bb89606ed",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d7fb80d4c03e8714",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "未命名 1.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "4c26eca82edb14c9",
+  "lastOpenFiles": [
+    "未命名 1.md",
+    "未命名.canvas",
+    "未命名.md",
+    "2024-06-10.md",
+    "hello-algo-1.0.0-zh-c.pdf",
+    "C_程序设计教程.pdf",
+    "计算机网络（原书第7版） 自顶向下方法 (James F. Kurose Keith W. Ross) (Z-Library).pdf",
+    "计算机网络（第8版） (谢希仁) (Z-Library).pdf",
+    "操作系统/_1_虚拟化.md",
+    "操作系统/_2_并发.md"
+  ]
+}
